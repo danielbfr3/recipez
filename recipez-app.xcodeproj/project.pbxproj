@@ -13,6 +13,8 @@
 		65EFA0651CFCABDC0063FBFC /* recipez_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65EFA0631CFCABDC0063FBFC /* recipez_app.xcdatamodeld */; };
 		65EFA0671CFCABDC0063FBFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65EFA0661CFCABDC0063FBFC /* Assets.xcassets */; };
 		65EFA06A1CFCABDC0063FBFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65EFA0681CFCABDC0063FBFC /* LaunchScreen.storyboard */; };
+		65EFA0761CFCC2380063FBFC /* Recipe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EFA0741CFCC2380063FBFC /* Recipe+CoreDataProperties.swift */; };
+		65EFA0771CFCC2380063FBFC /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EFA0751CFCC2380063FBFC /* Recipe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		65EFA0661CFCABDC0063FBFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65EFA0691CFCABDC0063FBFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65EFA06B1CFCABDC0063FBFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65EFA0741CFCC2380063FBFC /* Recipe+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Recipe+CoreDataProperties.swift"; path = "../Recipe+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		65EFA0751CFCC2380063FBFC /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Recipe.swift; path = ../Recipe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,41 @@
 		65EFA05B1CFCABDC0063FBFC /* recipez-app */ = {
 			isa = PBXGroup;
 			children = (
+				65EFA0731CFCC1C60063FBFC /* Controller */,
+				65EFA0721CFCC1C30063FBFC /* View */,
+				65EFA0711CFCC1C10063FBFC /* Model */,
 				65EFA05C1CFCABDC0063FBFC /* AppDelegate.swift */,
-				65EFA05E1CFCABDC0063FBFC /* ViewController.swift */,
-				65EFA0601CFCABDC0063FBFC /* Main.storyboard */,
-				65EFA0661CFCABDC0063FBFC /* Assets.xcassets */,
-				65EFA0681CFCABDC0063FBFC /* LaunchScreen.storyboard */,
 				65EFA06B1CFCABDC0063FBFC /* Info.plist */,
 				65EFA0631CFCABDC0063FBFC /* recipez_app.xcdatamodeld */,
+				65EFA0661CFCABDC0063FBFC /* Assets.xcassets */,
 			);
 			path = "recipez-app";
+			sourceTree = "<group>";
+		};
+		65EFA0711CFCC1C10063FBFC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				65EFA0741CFCC2380063FBFC /* Recipe+CoreDataProperties.swift */,
+				65EFA0751CFCC2380063FBFC /* Recipe.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		65EFA0721CFCC1C30063FBFC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				65EFA0601CFCABDC0063FBFC /* Main.storyboard */,
+				65EFA0681CFCABDC0063FBFC /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		65EFA0731CFCC1C60063FBFC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				65EFA05E1CFCABDC0063FBFC /* ViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,8 +170,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				65EFA0651CFCABDC0063FBFC /* recipez_app.xcdatamodeld in Sources */,
+				65EFA0761CFCC2380063FBFC /* Recipe+CoreDataProperties.swift in Sources */,
 				65EFA05F1CFCABDC0063FBFC /* ViewController.swift in Sources */,
 				65EFA05D1CFCABDC0063FBFC /* AppDelegate.swift in Sources */,
+				65EFA0771CFCC2380063FBFC /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

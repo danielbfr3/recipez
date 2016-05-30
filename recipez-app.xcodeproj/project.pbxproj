@@ -15,6 +15,8 @@
 		65EFA06A1CFCABDC0063FBFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65EFA0681CFCABDC0063FBFC /* LaunchScreen.storyboard */; };
 		65EFA0761CFCC2380063FBFC /* Recipe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EFA0741CFCC2380063FBFC /* Recipe+CoreDataProperties.swift */; };
 		65EFA0771CFCC2380063FBFC /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EFA0751CFCC2380063FBFC /* Recipe.swift */; };
+		65EFA0791CFCCAA10063FBFC /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EFA0781CFCCAA10063FBFC /* RecipeCell.swift */; };
+		65EFA07B1CFCDD830063FBFC /* CreateRecipeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EFA07A1CFCDD830063FBFC /* CreateRecipeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		65EFA06B1CFCABDC0063FBFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65EFA0741CFCC2380063FBFC /* Recipe+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Recipe+CoreDataProperties.swift"; path = "../Recipe+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		65EFA0751CFCC2380063FBFC /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Recipe.swift; path = ../Recipe.swift; sourceTree = "<group>"; };
+		65EFA0781CFCCAA10063FBFC /* RecipeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		65EFA07A1CFCDD830063FBFC /* CreateRecipeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateRecipeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +96,9 @@
 		65EFA0731CFCC1C60063FBFC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				65EFA0781CFCCAA10063FBFC /* RecipeCell.swift */,
 				65EFA05E1CFCABDC0063FBFC /* ViewController.swift */,
+				65EFA07A1CFCDD830063FBFC /* CreateRecipeVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -172,6 +178,8 @@
 				65EFA0651CFCABDC0063FBFC /* recipez_app.xcdatamodeld in Sources */,
 				65EFA0761CFCC2380063FBFC /* Recipe+CoreDataProperties.swift in Sources */,
 				65EFA05F1CFCABDC0063FBFC /* ViewController.swift in Sources */,
+				65EFA0791CFCCAA10063FBFC /* RecipeCell.swift in Sources */,
+				65EFA07B1CFCDD830063FBFC /* CreateRecipeVC.swift in Sources */,
 				65EFA05D1CFCABDC0063FBFC /* AppDelegate.swift in Sources */,
 				65EFA0771CFCC2380063FBFC /* Recipe.swift in Sources */,
 			);
